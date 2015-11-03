@@ -1,7 +1,7 @@
 @extends('template')
 @section('content')
 <div class="panel panel-default">
-	<div class="panel-heading">Create Task</div>
+	<div class="panel-heading">Create New Task</div>
 	<div class="panel-body">
 		<form method="post" action="{{ url('/tasks/create') }}">
 		<!-- Laravel Token -->
